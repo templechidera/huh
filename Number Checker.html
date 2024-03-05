@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Checker</title>
+    <script src="Number Checker.js" defer></script>
+    <style>
+        body{
+            background-color: #333333;
+        }
+        
+        .parent{
+            background-color: black;
+            height: 450px;
+            width: 250px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin: auto;
+         margin-top: 50px;
+         border-top-left-radius: 30px;
+         border-top-right-radius: 30px;
+         border-bottom-left-radius: 30px;
+         border-bottom-right-radius: 30px;
+         border-style: outset;
+         border-color: white;
+         border-width: 0.2px;
+         box-shadow:1px 1px 2px white;
+        }
+        
+        input{
+            width:200px;
+            height:25px;
+            background-color: #ece5e5;
+            border: none;
+            color: black;
+            text-align: center;
+            font-size: 15px;
+            font-weight: 600;
+            border-top-left-radius: 5px;
+         border-top-right-radius: 5px;
+         border-bottom-left-radius: 5px;
+         border-bottom-right-radius: 5px;
+        }
+
+        button{
+            width:200px;
+            height:25px; 
+            background-color: #BE7A01;
+            color: black;
+            border: none;
+            font-size: 14px;
+            font-weight: 600;
+            border-top-right-radius: 5px;
+         border-bottom-left-radius: 5px;
+         border-bottom-right-radius: 5px;
+         border-top-left-radius: 5px;
+         cursor: pointer;
+        }
+
+        p{
+            font-size: 14px;
+            font-weight: 600;
+            font-family: 'Courier New', Courier, monospace;
+            color: white;  
+        }
+
+        .first-word {
+            color: #FFC500;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #FFC500; 
+}
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <h2>Number Checker</h2>
+    <input placeholder="Enter a number" required>
+    <p></p>
+    <button type="submit">Check Number</button>
+</div>
+    </body>
+</html>
